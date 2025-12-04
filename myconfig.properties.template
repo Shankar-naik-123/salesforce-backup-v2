@@ -1,0 +1,26 @@
+# BackupForce v2 Configuration Template
+
+# Salesforce credentials
+sf.username = your-salesforce-username@example.com
+sf.password = YourPasswordPlusSecurityToken
+
+# Salesforce server URL
+# For sandbox orgs
+#sf.serverurl = https://test.salesforce.com
+# For production orgs
+sf.serverurl = https://login.salesforce.com
+
+# Output folder for backup files
+outputFolder=C:/backupForce2/backup
+
+# Specify which objects to backup
+# Use * for all objects, or comma-separated list like Account,Contact,Opportunity
+backup.objects=*
+
+# Exclude specific objects (comma-separated)
+# Attachment is always excluded by default (large files)
+backup.objects.exclude=Attachment
+
+# HTTP settings
+http.connectionTimeoutSecs=60
+http.readTimeoutSecs=540

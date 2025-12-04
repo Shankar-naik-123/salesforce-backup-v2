@@ -1,0 +1,21 @@
+# Credentials and sensitive data
+myconfig.properties
+
+# Backup output files
+backup/
+
+# Maven build artifacts
+target/
+*.class
+
+# Log files
+*.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# OS files
+Thumbs.db

@@ -1,5 +1,9 @@
 # Salesforce Backup v2.0
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Java](https://img.shields.io/badge/Java-11%2B-blue.svg)](https://www.oracle.com/java/)
+[![Salesforce API](https://img.shields.io/badge/Salesforce-Bulk%20API%20v2-00A1E0.svg)](https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/)
+
 A powerful command-line tool for backing up Salesforce data using the Bulk API v2. Backs up all queryable objects to CSV files with real-time progress tracking and robust error handling.
 
 ## Features
@@ -210,7 +214,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-MIT License - See LICENSE file for details
+MIT License - See [LICENSE](LICENSE) file for details
 
 ## Roadmap
 
